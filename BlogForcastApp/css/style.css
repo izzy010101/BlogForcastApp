@@ -1,0 +1,14 @@
+header, footer {
+    background-color: #d2bc98;
+}
+
+.forcast_input {
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 40px;
+
+}
+
+.forcast_btn {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" type="image/x-icon" href="../../../assets/icons/zen_icon.svg">   
+    </head>
+    <body>
+        <header>
+            <nav class=" border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+                <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                    <a href="/" class="flex items-center">
+                        <img src="./assets/icons/zen_icon.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">ZenBlog</span>
+                    </a>
+                        <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                            <li>
+                                <a href="/" class="block py-2 pr-4 pl-3 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="weather.html" class="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Weather</a>
+                            </li>
+                            <li>
+                                <div id="clock" class="block py-2 pr-4 pl-3 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="min-h-screen">
+            <div class="w-1/2 font-serif  mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+
+                <h1 class="text-5xl font-extrabold dark:text-white text-center mb-16">Welcome to ZenBlog!</h1>
+        
+                    <p class="my-4">    
+                        At ZenBlog, we're passionate about [insert topic/niche]. Our mission is to [briefly describe the purpose of your blog - e.g., educate, inspire, entertain] our readers through engaging content that [describe what sets your content apart - e.g., informs, sparks conversation, provides valuable insights].
+                    </p>
+                    <h3 class="text-3xl font-bold dark:text-white">Our Story:</h3>
+                    <p class="my-4">
+                        ZenBlog was founded in 2023 by Ivy Nikolic. Fueled by a shared love for healthy food, we set out to create a platform where enthusiasts and experts alike could come together to explore, learn, and connect. Since then, we've grown into a vibrant community of millions passionate readers from around the world.
+                    </p>
+                    <h3 class="text-3xl font-bold dark:text-white">What We Stand For:</h3>
+                    <p class="my-4">    
+                        At [Your Blog Name], we believe in [core values - e.g., authenticity, inclusivity, integrity]. These values shape everything we do, from the content we create to the relationships we build with our audience and partners. We're committed to [describe any initiatives or causes your blog supports - e.g., sustainability, diversity, mental health awareness]..
+                    </p>
+                    <h3 class="text-3xl font-bold dark:text-white">Meet the Team:</h3>
+                    <p class="my-4">
+                        Behind every article and post on [Your Blog Name] is a dedicated team of writers, editors, and creators. We come from diverse backgrounds and bring a wide range of perspectives to the table, but we're united by our passion for [topic/niche]. Get to know the faces behind the words and stories you love.
+                    </p>
+                    <h3 class="text-3xl font-bold dark:text-white">Join Our Community:</h3>
+                    <p class="my-4">
+                        We wouldn't be where we are today without our incredible readers and supporters. Whether you're a seasoned expert or just starting out on your journey, we invite you to join our community. Follow us on social media, subscribe to our newsletter, and join the conversation. Together, let's explore the fascinating world of [topic/niche] and beyond.
+                    </p>
+                    <p class="my-4 font-bold">
+                    Thank you for being a part of the ZenBlog family!
+                    </p>
+                </div>
+        </main>
+
+        <footer class="sticky-top[100vh] rounded-lg shadow dark:bg-gray-900 m-4">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        <img src="./assets/icons/zen_icon.svg" class="h-8" alt="Flowbite Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ZenBlog</span>
+                    </a>
+                    <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="terms.html" class="hover:underline me-4 md:me-6">Terms and Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© <script>document.write(new Date().getFullYear())</script> <a href="/" class="hover:underline">Ivy</a>. All Rights Reserved.</span>
+            </div>
+        </footer>
+
+        <script src="./js/clock.js"></script>
+    </body>
+</html>
